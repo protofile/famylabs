@@ -1172,13 +1172,14 @@ span.mddle-pd {
 .mediic-section-title2 h4 {
   font-size: 16px;
   font-weight: 500;
-  color: var(--secondary-color);
+  color: #FA502C;
   padding: 0 0 9px;
 }
 
 .mediic-section-title2 h3 {
   font-size: 32px;
   font-weight: 700;
+  color: #473018;
 }
 
 .mediic-section-title h4 {
@@ -1756,6 +1757,9 @@ span.list-pd {
 }
 .bg-lightorange{
   background: #FFD8B1 !important;
+}
+.bg-orange{
+  background: #FA502C;
 }
 
 .mediic-top-section .top-mediic-section {
@@ -3053,9 +3057,7 @@ span.fill {
 }
 
 .style-2 .blog-single-box {
-  padding: 25px 25px 35px;
-  background-color: rgba(243, 248, 253, 0.30196078431372547);
-  border: 2px solid #ffffff;
+  padding: 0 0 35px;
   margin-bottom: 30px;
   border-radius: 15px;
 }
@@ -3111,15 +3113,16 @@ span.fill {
   height: 60px;
   border-radius: 30px;
   background-color: rgba(255, 255, 255, 0.30196078431372547);
-  border: 2px solid #ffffff;
+  border: 2px solid #FA502C;
 }
+
 
 .search-bx button.subscribe-btn {
   height: 50px;
   width: 50px;
   border: 0;
   border-radius: 50%;
-  background: var(--secondary-color);
+  background: #FA502C;
   color: #fff;
   position: absolute;
   right: 8px;
@@ -3146,6 +3149,7 @@ span.fill {
   line-height: 24px;
   display: inline-block;
   transition: 0.5s;
+  color: #473018;
 }
 
 .category-content h6 {
@@ -3153,6 +3157,7 @@ span.fill {
   font-weight: 400;
   font-family: "DM Sans";
   margin: 9px 0 0;
+  color: #473018;
 }
 
 .category-content h4 a:hover {
@@ -3716,9 +3721,17 @@ ul.about-mediic-services li:before {
 .single-services-box {
   padding: 38px 35px 32px;
   border-radius: 20px;
-  background-color: rgba(255, 255, 255, 0.30196078431372547);
+  background-color: rgba(255, 255, 255, 0.8);
   border: 2px solid #ffffff;
   margin-bottom: 30px;
+}
+.services-content-2 .services-desc ul{
+  font-size: 16px;
+  padding: 10px 0;
+}
+.services-content-2 .services-desc ul li{
+  font-size: 16px;
+  color: #473018;
 }
 
 .services-icon {
@@ -3749,10 +3762,15 @@ ul.about-mediic-services li:before {
 }
 
 .services-title h3 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   margin: 0;
   transition: 0.5s;
+}
+.services-title span{
+  font-size: 14px;
+  color: #473018;
+  display: block;
 }
 
 .services-desc p {
@@ -3823,7 +3841,7 @@ ul.about-mediic-services li:before {
 }
 
 .single-services-box:hover .services-title h3 {
-  color: var(--secondary-color);
+  color: #473018;
 }
 
 /*
@@ -3843,6 +3861,7 @@ ul.about-mediic-services li:before {
   font-size: 28px;
   font-weight: 700;
   padding: 25px 0 21px;
+  color: #473018;
 }
 
 p.mdy-pd {
@@ -3853,8 +3872,8 @@ p.mdy-pd {
 
 .mediic-single-box {
   padding: 35px 30px 20px;
-  background-color: rgba(243, 248, 253, 0.30196078431372547);
-  border: 2px solid #ffffff;
+  background-color: #FFF3E8;
+  border: 2px solid #FFD8B1;
   border-radius: 15px;
   margin-bottom: 30px;
 }
@@ -3887,7 +3906,7 @@ p.mdy-pd {
 
 /* mediic  Blog */
 .mediic-blog {
-  background: var(--secondary-color);
+  background: #FA502C;
   padding: 30px 40px 14px;
   border-radius: 15px;
   display: flex;
@@ -3951,7 +3970,7 @@ p.mdy-pd {
 }
 
 .accordion-content p {
-  color: #002570;
+  color: #473018;
   padding: 20px 0 32px;
 }
 
@@ -3967,10 +3986,10 @@ p.mdy-pd {
   cursor: pointer;
   font-weight: 600;
   font-size: 20px;
-  color: var(--primary-color) !important;
-  background-color: rgba(255, 255, 255, 0.30196078431372547);
-  border: 2px solid #ffffff;
-  padding: 16px 20px 16px 25px;
+  color: #473018 !important;
+  background-color: #FFF3E8;
+  border: 2px solid #FFD8B1;
+  padding: 16px 60px 16px 25px;
   border-radius: 15px;
   z-index: 1;
 }
@@ -4091,8 +4110,8 @@ p.mdy-pd {
 /* Active */
 
 .style-2.accordion a.active {
-  background: #eef5ff;
-  color: var(--primary-color) !important;
+  background: #FA502C;
+  color: #fff !important;
   border: 2px solid #fff;
   border-radius: 15px 15px 0 0;
   border-bottom: 2px solid #fff;
@@ -4114,8 +4133,8 @@ p.mdy-pd {
   font-weight: 600;
   font-size: 20px;
   color: var(--primary-color) !important;
-  background-color: rgba(255, 255, 255, 0.30196078431372547);
-  border: 2px solid #ffffff;
+  background-color: #FFD8B1;
+  border: 2px solid #FFD8B1;
   padding: 16px 20px 16px 25px;
   border-radius: 15px;
   z-index: 1;
@@ -4244,7 +4263,7 @@ h3.category-title:before {
   bottom: 0;
   width: 30px;
   height: 2px;
-  background: #0c5adb;
+  background: #FA502C;
   transition: 0.5s;
 }
 
@@ -4257,8 +4276,8 @@ h3.category-title:hover:before {
 .mediic-category-box {
   padding: 20px 35px 24px;
   border-radius: 20px;
-  background-color: rgba(243, 248, 253, 0.30196078431372547);
-  border: 2px solid #ffffff;
+  background-color: #FFF3E8;
+  border: 2px solid #FFD8B1;
   margin-bottom: 30px;
 }
 
@@ -4268,8 +4287,8 @@ ul.mediic-service li {
   display: block;
   list-style: none;
   border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.30196078431372547);
-  border: 2px solid #ffffff;
+  background-color: #FFD8B1;
+  border: 2px solid #FFD8B1;
   margin: 0 0 15px;
   position: relative;
   z-index: 1;
@@ -4284,7 +4303,7 @@ ul.mediic-service li:before {
   top: 0;
   width: 0%;
   height: 100%;
-  background: var(--primary-color);
+  background: #FA502C;
   transition: 0.5s;
   border-radius: 5px;
 }
@@ -4292,7 +4311,7 @@ ul.mediic-service li:before {
 ul.mediic-service li a {
   font-size: 15px;
   font-family: "DM Sans";
-  color: #65677a;
+  color: #473018;
   transition: 0.5s;
 }
 
@@ -4300,7 +4319,7 @@ ul.mediic-service li a i {
   padding: 0 12px 0 0;
   font-size: 17px;
   display: inline-block;
-  color: var(--secondary-color);
+  color: #FA502C;
   transition: 0.5s;
 }
 
@@ -4376,7 +4395,7 @@ span.dwnlod-hvr i {
 /* Compani contact */
 
 .mediic-company-contact {
-  background: url(../images/resource/company-bg.png);
+  background: #fff;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -4401,35 +4420,36 @@ span.dwnlod-hvr i {
   height: 105px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0);
-  border: 3px solid #007eff;
+  border: 3px solid #FA502C;
   animation: zoomBig2 2.25s linear infinite;
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
 
-.mediic-category-content h6 {
+.mediic-category-content h6,
+.meta-info h6 {
   font-size: 18px;
   font-weight: 500;
   font-family: "DM Sans";
   padding: 28px 0 0;
-  color: #fff;
+  color: #473018;
 }
 .mediic-category-content h4 {
   font-size: 24px;
   font-weight: 400;
   font-family: "DM Sans";
   padding: 4px 0 20px;
-  color: #fff;
+  color: #473018;
 }
 
 .mediic-category-content p {
   font-size: 16px;
-  color: #fff;
+  color: #473018;
   font-family: "DM Sans";
 }
 
 .mediic-category-content p i {
-  color: var(--secondary-color);
+  color: #473018;
   padding: 0 8px 0 0;
   display: inline-block;
 }
@@ -4459,14 +4479,18 @@ span.dwnlod-hvr i {
 .mediic-contact-btn a {
   padding: 15px 30px;
   font-family: "DM Sans";
-  background: var(--secondary-color);
+  background: #FA502C;
   color: #fff;
   display: block;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 40px;
   position: relative;
   z-index: 1;
   margin-top: 52px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
 }
 
 .mediic-contact-btn a i {
@@ -4679,8 +4703,8 @@ mediic Start Contact Inner Page
 .contact-service-box {
   padding: 40px 35px 35px;
   border-radius: 20px;
-  background-color: rgba(255, 255, 255, 0.30196078431372547);
-  border: 2px solid #ffffff;
+  background-color: #FFF3E8;
+  border: 2px solid #FFD8B1;
   margin-bottom: 30px;
 }
 
@@ -4688,8 +4712,6 @@ mediic Start Contact Inner Page
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #ffff;
-  padding-bottom: 50px;
   margin-bottom: 45px;
 }
 
@@ -4697,7 +4719,7 @@ mediic Start Contact Inner Page
   font-size: 16px;
   font-weight: 500;
   font-family: "DM Sans";
-  color: #65677a;
+  color: #474747;
 }
 
 .contact-icon {
@@ -4707,18 +4729,19 @@ mediic Start Contact Inner Page
   text-align: center;
   border-radius: 35px;
   background-color: rgba(255, 255, 255, 0.30196078431372547);
-  border: 2px solid #ffffff;
+  border: 2px solid #FFD8B1;
 }
 
 .contact-address h2 {
   font-size: 24px;
   font-weight: 700;
+  color: #473018;
 }
 
 .contact-address span {
   font-size: 15px;
   font-family: "DM Sans";
-  color: #65677a;
+  color: #473018;
   padding: 6px 0 0;
   display: inline-block;
 }
@@ -5457,14 +5480,14 @@ span.flaticon-multiply i {
   content: "";
   display: block;
   border: 32px solid transparent;
-  border-top-color: #00ffff;
+  border-top-color: #FFD8B1;
   position: absolute;
   left: 0;
   top: 0;
   animation: weld-rotate 2s infinite ease-in;
 }
 .loader:before {
-  border-color: transparent transparent transparent var(--secondary-color);
+  border-color: transparent transparent transparent #FA502C;
   animation-delay: 0.5s;
 }
 @keyframes weld-rotate {
@@ -5757,12 +5780,90 @@ span.flaticon-multiply i {
   margin-bottom: 10px;
 }
 
+.bg-white{
+  background: #fff !important;
+}
+.bg-orange{
+  background: #FA502C;
+}
 
+.mediic-section.style-2.bg-orange h3.category-title{
+  color: #473018;
+}
 
+.services-content-2 .services-desc .price{
+  color: #473018;
+  font-size: 14px;
+  padding: 10px 0 24px;
+}
+.services-content-2 .services-desc .price span{
+  color: #FA502C;
+  font-weight: 700;
+  font-size: 22px;
+}
+.services-content-2 .srvce-btn{
+  border-top: 1px solid #fff;
+}
+.mediic-thumb img{
+  width: 100%;
+}
 
-
-
-
-
+.accordion-content p{
+  color: #473018;
+}
+.style-2.accordion li p{
+  background: #FFF3E8;
+}
+.contact-service-section{
+  margin-top: 80px;
+}
+.contact-head.with-border{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 30px;
+}
+.contact-service-box.price .contact-address h2{
+  color: #FA502C;
+}
+.contact-service-box.price .contact-address h5{
+  color: #473018;
+}
+.contact-title h4,
+.text-fam-black{
+  color: #473018;
+}
+.mediic-btn a.white-btn{
+  background: #fff;
+  color: #FA502C;
+}
+.mediic-btn a.white-btn:after{
+  background: #fff;
+}
+.services-title h3{
+  color: #473018;
+}
+.mediic-appoinment{
+  margin-bottom: 80px;
+}
+ul.checklist{
+  padding: 30px 0;
+  border-top: 1px dashed #473018;
+  border-bottom: 1px dashed #473018;
+  column-count: 2;
+  list-style: none;
+}
+ul.checklist li{
+  position: relative;
+  padding-left: 27px;
+}
+ul.checklist li::before{
+  content: "";
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  top: 3px;
+  left: 0;
+  background: url(../images/famylabs/check-icon.svg) no-repeat center;
+}
 
 
